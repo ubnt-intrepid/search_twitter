@@ -1,0 +1,14 @@
+[package]
+name = "search_twitter"
+version = "0.1.0"
+authors = ["Yusuke Sasaki <yusuke.sasaki.nuem@gmail.com>"]
+
+[dependencies]
+finchers = { git = "https://github.com/finchers-rs/finchers.git" }
+futures = "*"
+egg-mode = "*"
+hyper = "*"
+serde = "1"
+serde_json = "*"
+serde_derive = "1"
+tokio-core = "*"
